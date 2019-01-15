@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	<style>
+	   body{
+	   	text-align: center;
+	   	background-color: gray;
+	   }
+		div{
+			background-color:white;
+			border:3px solid black;
+			width: 200px;
+			height:50px;
+			margin:auto;
+		}
+		h1{
+			background-color: blue;
+			color:red;
+			text-align:center;
+		}
+		.but{
+	       width:50px;
+	       height: 50px;
+	       font-size:25px;
+	       text-align: center;
+	       margin:2px;
+		}
+		.centered{
+			text-align:center;
+			background-color: purple;
+			width:400px;
+			margin:auto;
+		}
+		
+	</style>	
+	</head>
+	<body>
+		<h1 id="title">Calculator</h1>
+		<div type="text" id="oop"></div>
+	    <form class="centered" name="forms" id="main">
+	    	<br>
+	    	<input class="but" type="button" id="btn7" value="7" onclick="print(7);">
+	    	<input class="but" type="button" id="btn8" value="8" onclick="print(8);">
+	    	<input class="but" type="button" id="btn9" value="9" onclick="print(9);">
+	    	<input class="but" type="button" id="plus" value="x" onclick="print('*');">
+	    	<input class="but" type="button" id="plus" value="/" onclick="print('/');"><br>
+	    	<input class="but" type="button" id="btn4" value="4" onclick="print(4);">
+	    	<input class="but" type="button" id="btn5" value="5" onclick="print(5);">
+	    	<input class="but" type="button" id="btn6" value="6" onclick="print(6);">
+	    	<input class="but" type="button" id="Cbutton" value="C" onclick="er();">
+	    	<input class="but" type="button" id="plus" value="-" onclick="print('-');"><br>
+	    	<input class="but" type="button" id="btn1" value="1" onclick="print(1);">
+	    	<input class="but" type="button" id="btn2" value="2" onclick="print(2);">
+	    	<input class="but" type="button" id="btn3" value="3" onclick="print(3);">
+	    	<input class="but" type="button" id="plus" value="+" onclick="print('+');">
+	    	<input class="but" type="button" id="equalto" value="=" onclick="evalu();">
+	    </form>
+	    
+		<script src="script.js"></script>	
+	</body>
+</html>
