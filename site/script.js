@@ -18,3 +18,12 @@ function er()
 {
   document.getElementById("oop").textContent="";	
 }
+function eras(){
+	var str;
+    str=document.getElementById("oop").textContent;
+    console.log(str);
+    str=str.slice(0,-1);
+    console.log(str);
+    document.getElementById("oop").textContent=str;
+    message=document.getElementById("oop").textContent;
+}
